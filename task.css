@@ -1,11 +1,13 @@
 body{
    margin-left:200px ;
     margin-right: 200px;
+    position: relative;
+    height: 100%;
 }
 
 .wd{
     width: 1400px;
-    height: 900px;
+    height: 1100px;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .pd{
@@ -33,7 +35,7 @@ body{
 .earning{
     font-size: medium;
     font-weight: 200;
-   padding-top: 10px;
+   padding-top: 20px;
    padding-left: 20px;
     color: #f3e7e9;
 }
@@ -64,24 +66,27 @@ body{
 }
 
 .swiper {
-    width: 900px;
-    height: 300px;
-  }
-  .swiper-slide {
-    text-align: center;
-    font-size: 30px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 900px;
+  height: 300px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
   .review{
     font-weight: 100;
     font-size: 15px;
@@ -92,6 +97,32 @@ body{
     font-display: 20px;
   }
 
+  .button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid slategrey;
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-top: 15px;
+    
+  }
+  .button2{
+    width: 70px;
+    height: 30px;
+    border: 1px solid slategrey;
+    background-color: blue;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
 @media screen and (max-width:576px) {
 
     body{
@@ -100,31 +131,33 @@ body{
 }
 .wd{
     width: 500px;
-    height: 700px;
+    height: 850px;
   padding-top: 20px;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .pl{
-    width: 280px;
+    width: 380px;
     height: 180px;
-    background:red;
+    background:white;
     margin-left: 20px;
    margin-top: 0px;
    border-radius: 20px;
+   position: relative;
+   left: 20px;
   
 }
 .pd{
-    width: 280px;
+    width: 380px;
     height: 180px;
     background: rgb(82,45,232);
-    margin-left: 5px;
-   margin-top: 60px;
+    margin-left: 20px;
+   margin-top: 110px;
    border-radius: 20px;
-   /* position: relative;
-   bottom: 50px;
-   left: 20px;
+   /* /* position: relative; */
+   /* bottom: 50px;
+   left: 200px; */
 } */
-}
+
 .swiper-slide {
     text-align: center;
     font-size: 30px;
