@@ -201,7 +201,7 @@ gap: 350px;
   }
 
   .swiper {
-    width: 400px;
+    width: 380px;
     height: 250px;
   }
   .img{
@@ -209,5 +209,17 @@ gap: 350px;
    justify-self:end;
   gap: 200px;
   
+  }
+  .review{
+    font-weight: 100;
+    font-size: 15px;
+   
+    font-weight: normal;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    width: 290px;
+   
+    ;
   }
 }
