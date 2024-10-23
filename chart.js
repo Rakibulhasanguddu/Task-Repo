@@ -24,14 +24,10 @@
 //     }
 // });
 
-
-{/* <div class="swiper-slide">
-<h5 class="">Get Started</h5>
+{/* <h5 class="">Get Started</h5>
 <h6 class="review">Get started right away and track your revenue <br>.
     On a clear dashboard you can easily monitor all your progress live and watch your success grow
     Stay on top of your financial goals with real-time insights, personalized
 
     analytics, and customizable reports. Make informed decisions, identify growth opportunities, and
-    let your business thrive. </h6>
-
-</div> */}
+    let your business thrive. </h6> */}
